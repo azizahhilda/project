@@ -1,5 +1,18 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  /* font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+} */
+/* font-family: Teko; */
+
+src: url('https://fonts.googleapis.com/css?family=Chicle|Cormorant+Garamond|EB+Garamond|PT+Sans+Narrow|Teko');
+
+/* src: url(http://www.yoursite.com/fonts/coolfont_bold.woff); */
+
+font-family: ‘Roboto’, sans-serif;
+}
+
+.form-all *{
+
+  font-family: ‘Roboto’, sans-serif;
 }

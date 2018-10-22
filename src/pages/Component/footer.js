@@ -1,25 +1,23 @@
 import React, { Component } from "react";
-import {Navbar, Nav, NavItem, } from 'react-bootstrap'
+import {Navbar, Nav, NavItem, fontSize, Image } from 'react-bootstrap'
 import '../../App.css'
+import { Container } from "reactstrap";
 
 export default class Footer extends Component{
     render(){
         return(
-            <Navbar inverse collapseOnSelect style={{marginBottom:0, border:0}} >
-             <Navbar.Header>
-              <Navbar.Brand>
-               <a href="#brand">LOGO BM3</a>
-              </Navbar.Brand>
-              <Navbar.Toggle />
-            </Navbar.Header>
-            <Navbar.Collapse>
-              <Nav>
-                <NavItem eventKey={1} href="#">
-                    Mading online
-                </NavItem>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
+          <div style={{
+            fontSize:"20px",
+            borderRadius:0,
+            backgroundColor: "#2B2B2B",
+            border:"0px solid #fff",
+            height: 40,
+            width:"100%",
+          }}>
+          <Container>
+          <p style={{textAlign:"center", color:"#fff"}}> Copyright&copy;2018</p>
+          </Container>
+          </div>
         )
     }
 }
